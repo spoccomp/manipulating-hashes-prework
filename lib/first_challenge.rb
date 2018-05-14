@@ -19,7 +19,7 @@ def first_challenge
       if name == "Freddy Mercury"
           data.each do |attribute, value|
               contacts.delete_if {value == "strawberry" }
-              
+
             end
           end
       end
