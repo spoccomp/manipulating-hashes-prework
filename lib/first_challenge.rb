@@ -19,6 +19,7 @@ def first_challenge
       if attribute =:favorite_icecream_flavors
         value.each. do |"strawberry"|
           contacts.delete ("strawberry")
+          end
         end
       end
     end
